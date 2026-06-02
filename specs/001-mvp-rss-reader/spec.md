@@ -8,6 +8,12 @@
 
 **Input**: User description: "MVP RSS reader: a simple RSS/Atom feed reader that demonstrates the most basic capability (add subscriptions) without the complexity of a production-ready application."
 
+## Clarifications
+
+### Session 2026-06-02
+
+- Q: Should duplicate feed URLs be allowed in the subscription list? → A: Allow duplicate feed URLs; each submission is added separately.
+
 ## User Scenarios & Testing *(mandatory)*
 
 ### User Story 1 - Add a feed subscription (Priority: P1)
@@ -40,7 +46,7 @@ A user can see the current set of added subscriptions in a simple list format on
 ### Edge Cases
 
 - What happens when the user submits an empty URL? The UI should not add a blank entry and should keep the existing list unchanged.
-- How does the system behave if the user enters the same URL twice? The MVP should display both entries if duplicate entries are allowed, or it may keep duplicates if deduplication is not implemented. This behavior is acceptable if documented as an MVP limitation.
+- How does the system behave if the user enters the same URL twice? The MVP allows duplicate URLs; each submission is added as a separate subscription entry in the list.
 
 ## Requirements *(mandatory)*
 
