@@ -13,6 +13,7 @@
 ### Session 2026-06-02
 
 - Q: Should duplicate feed URLs be allowed in the subscription list? → A: Allow duplicate feed URLs; each submission is added separately.
+ - Q: Should subscriptions include an `addedAt` timestamp? → A: Yes — include `addedAt` (ISO 8601) for each subscription; backend sets the value on creation.
 
 ## User Scenarios & Testing *(mandatory)*
 

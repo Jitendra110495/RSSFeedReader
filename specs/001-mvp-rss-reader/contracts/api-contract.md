@@ -38,4 +38,5 @@ Responses
 
 - The MVP does not expose delete or update operations.
 - The API does not fetch or parse feed content; it only manages a list of URLs.
+- `addedAt` is REQUIRED in subscription objects returned by the API and MUST be an ISO 8601 timestamp (UTC preferred). The backend is responsible for setting `addedAt` when a subscription is created and returns the created subscription with `addedAt` populated.
 - Duplicate URLs are allowed in the subscription list for MVP simplicity.

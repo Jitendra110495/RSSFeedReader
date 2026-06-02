@@ -6,7 +6,7 @@
 - **Description**: Represents a feed source the user has added.
 - **Fields**:
   - `url` (string) — the feed URL entered by the user
-  - `addedAt` (DateTime?) — timestamp when the subscription was added (optional for MVP)
+  - `addedAt` (string, ISO 8601) — timestamp when the subscription was added (required for MVP)
 
 ### Subscription List
 - **Description**: The current in-memory collection of subscriptions active during the user session.
@@ -20,8 +20,10 @@
 ## Validation rules
 
 - `Subscription.url` MUST be non-empty.
-- `Subscription.url` MAY be any well-formed URL, but strict URL validation is optional and deferred for MVP.
-- Duplicate URLs are allowed in the MVP subscription list.
+ - `Subscription.url` MUST be non-empty.
+ - `Subscription.url` MAY be any well-formed URL, but strict URL validation is optional and deferred for MVP.
+ - `Subscription.addedAt` MUST be present and formatted as an ISO 8601 timestamp (UTC preferred); the backend sets this value when a subscription is created.
+ - Duplicate URLs are allowed in the MVP subscription list.
 
 ## State transitions
 
