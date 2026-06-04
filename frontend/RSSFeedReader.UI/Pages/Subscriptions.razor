@@ -1,0 +1,106 @@
+@page "/subscriptions"
+@using RSSFeedReader.UI.Models
+@using RSSFeedReader.UI.Services
+@inject SubscriptionApiService SubscriptionApi
+
+<h3>Subscriptions</h3>
+
+<div class="mb-3">
+    <label for="feedUrl" class="form-label">Feed URL</label>
+    <input id="feedUrl" class="form-control" @bind="newUrl" placeholder="https://example.com/feed" />
+</div>
+
+<button class="btn btn-primary mb-3" @onclick="AddSubscriptionAsync" disabled="@isSubmitting">Add subscription</button>
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="alert @(isError ? "alert-danger" : "alert-success")" role="alert">
+        @message
+    </div>
+}
+
+@if (subscriptions == null)
+{
+    <p><em>Loading subscriptions...</em></p>
+}
+else if (subscriptions.Count == 0)
+{
+    <p>No subscriptions yet.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Feed URL</th>
+                <th>Added At</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var subscription in subscriptions)
+            {
+                <tr>
+                    <td>@subscription.Url</td>
+                    <td>@FormatTimestamp(subscription.AddedAt)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private string newUrl = string.Empty;
+    private string? message;
+    private bool isError;
+    private bool isSubmitting;
+    private List<Subscription>? subscriptions;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadSubscriptionsAsync();
+    }
+
+    private async Task AddSubscriptionAsync()
+    {
+        message = null;
+        isError = false;
+
+        if (string.IsNullOrWhiteSpace(newUrl))
+        {
+            message = "Please enter a feed URL.";
+            isError = true;
+            return;
+        }
+
+        isSubmitting = true;
+
+        try
+        {
+            await SubscriptionApi.AddSubscriptionAsync(newUrl.Trim());
+            newUrl = string.Empty;
+            await LoadSubscriptionsAsync();
+            message = "Subscription added successfully.";
+        }
+        catch (Exception ex)
+        {
+            message = $"Unable to add subscription: {ex.Message}";
+            isError = true;
+        }
+        finally
+        {
+            isSubmitting = false;
+        }
+    }
+
+    private async Task LoadSubscriptionsAsync()
+    {
+        subscriptions = await SubscriptionApi.GetSubscriptionsAsync();
+    }
+
+    private string FormatTimestamp(string addedAt)
+    {
+        return DateTime.TryParse(addedAt, out var value)
+            ? value.ToLocalTime().ToString("g")
+            : addedAt;
+    }
+}
