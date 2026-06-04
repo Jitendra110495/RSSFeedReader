@@ -5,7 +5,7 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
   "mainAssemblyName": "RSSFeedReader.UI",
   "applicationEnvironment": "Development",
   "resources": {
-    "hash": "sha256-QWJHxQnJnbsn+p8hyRNSIP+QGeSmgIyz4A9EEtxMvHA=",
+    "hash": "sha256-IrTdWClq29WKTh4rX9HJ11hQM807yM6l27VkXdQuAk8=",
     "jsModuleNative": [
       {
         "name": "dotnet.native.rjbmzc4jpg.js"
@@ -1242,16 +1242,16 @@ var e=!1;const t=async()=>WebAssembly.validate(new Uint8Array([0,97,115,109,1,0,
       },
       {
         "virtualPath": "RSSFeedReader.UI.wasm",
-        "name": "RSSFeedReader.UI.h64ug8jeui.wasm",
-        "hash": "sha256-qVDg47CN031HwgX8jG3ol/9uknX18U+W9HZOitPdmAQ=",
+        "name": "RSSFeedReader.UI.6b13z330qf.wasm",
+        "hash": "sha256-Ykh2r4xrGhANexGf5MdLldrP1YN6BtWhUlEdvhyZAs4=",
         "cache": "force-cache"
       }
     ],
     "pdb": [
       {
         "virtualPath": "RSSFeedReader.UI.pdb",
-        "name": "RSSFeedReader.UI.4o3lc3cmdo.pdb",
-        "hash": "sha256-1L3NGtGZq7JTn0W9f/c1cu7WxDJH5LkDkyrDCzgIL50=",
+        "name": "RSSFeedReader.UI.9n7gm5o8zm.pdb",
+        "hash": "sha256-tRRLC76XYWFOXfjMf9lRa5Dv7EvzLYr5irjweO9nMLc=",
         "cache": "force-cache"
       }
     ],

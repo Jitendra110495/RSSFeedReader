@@ -217,9 +217,6 @@ C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\ww
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\RSSFeedReader.UI.h64ug8jeui.wasm
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\RSSFeedReader.UI.4o3lc3cmdo.pdb
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\dotnet.mkm94edr89.js
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.958z1vx7fr.js.gz
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.s5zxhf8cpw.wasm.gz
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.xp2g4rd365.wasm.gz
@@ -428,9 +425,6 @@ C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\ww
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\icudt_CJK.tjcz0u77k5.dat.gz
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\RSSFeedReader.UI.h64ug8jeui.wasm.gz
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\RSSFeedReader.UI.4o3lc3cmdo.pdb.gz
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\dotnet.mkm94edr89.js.gz
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\RSSFeedReader.UI.staticwebassets.runtime.json
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\RSSFeedReader.UI.staticwebassets.endpoints.json
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\RSSFeedReader.UI.dll
@@ -1112,10 +1106,6 @@ C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\co
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\mr8idyph8i-{0}-tjcz0u77k5-tjcz0u77k5.gz
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\sigrjwo9dq-{0}-tptq2av103-tptq2av103.gz
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\1f30hb2uk6-{0}-lfu7j35m59-lfu7j35m59.gz
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\1eo8caszzl-{0}-h64ug8jeui-h64ug8jeui.gz
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\dfncnna341-{0}-4o3lc3cmdo-4o3lc3cmdo.gz
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\j3ftxhyoq6-{0}-mkm94edr89-mkm94edr89.gz
-C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\zyooielikf-{0}-zxv4bgok08-zxv4bgok08.gz
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\staticwebassets.build.json
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\staticwebassets.development.json
@@ -1126,3 +1116,13 @@ C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\RS
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\refint\RSSFeedReader.UI.dll
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\RSSFeedReader.UI.pdb
 C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\ref\RSSFeedReader.UI.dll
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\RSSFeedReader.UI.6b13z330qf.wasm
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\RSSFeedReader.UI.9n7gm5o8zm.pdb
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\dotnet.utacfg4ivd.js
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\RSSFeedReader.UI.6b13z330qf.wasm.gz
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\RSSFeedReader.UI.9n7gm5o8zm.pdb.gz
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\bin\Debug\net10.0\wwwroot\_framework\dotnet.utacfg4ivd.js.gz
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\1eo8caszzl-{0}-6b13z330qf-6b13z330qf.gz
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\dfncnna341-{0}-9n7gm5o8zm-9n7gm5o8zm.gz
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\j3ftxhyoq6-{0}-utacfg4ivd-utacfg4ivd.gz
+C:\TrainingProjects\RSSFeedReader\frontend\RSSFeedReader.UI\obj\Debug\net10.0\compressed\zyooielikf-{0}-g6w4pwgak2-g6w4pwgak2.gz
